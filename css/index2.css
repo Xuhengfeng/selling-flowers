@@ -1,0 +1,181 @@
+/*oProducts*/
+.oProducts .wrapper .center h3 {
+  font-size: 20px; }
+
+/*oProducts*/
+/*oStroy*/
+.oStroy .container {
+  padding: 0; }
+  .oStroy .container .row {
+    margin: 0; }
+    .oStroy .container .row > div {
+      height: 100%;
+      overflow: hidden;
+      padding: 0;
+      text-align: center;
+      text-align: -webkit-center;
+      text-align: -ms-center;
+      text-align: -o-center;
+      text-align: -moz-center; }
+      .oStroy .container .row > div img {
+        width: 100%; }
+        .oStroy .container .row > div img.oMy-responsive {
+          margin-top: 90px;
+          max-width: 209px;
+          max-height: 87px;
+          margin-bottom: 80px; }
+      .oStroy .container .row > div dl {
+        margin: 20px 0 38px; }
+        .oStroy .container .row > div dl dd {
+          text-align: center; }
+    .oStroy .container .row:nth-of-type(2) > div .oText p {
+      padding: 58px 62px 40px 75px;
+      line-height: 24px;
+      text-align: justify;
+      text-align-last: left;
+      margin: 0; }
+    .oStroy .container .row:nth-of-type(3) .oText p {
+      width: 328px;
+      line-height: 24px;
+      margin: 0 auto 70px;
+      text-align: justify;
+      text-align-last: left; }
+    .oStroy .container .row:nth-of-type(4) {
+      width: calc(100% + 28px);
+      max-height: 345px; }
+      .oStroy .container .row:nth-of-type(4) > div {
+        padding-right: 28px; }
+        .oStroy .container .row:nth-of-type(4) > div img {
+          text-align: -webkit-center;
+          padding: 0;
+          margin: 0; }
+
+/*oStroy*/
+/*ourteam*/
+.ourteam {
+  padding: 0 10px; }
+  .ourteam .oText p {
+    padding: 0 30px;
+    text-align-last: left;
+    text-align: justify; }
+
+/*ourteam*/
+/*oImgGroup*/
+.oImgGroup .container {
+  padding: 0; }
+  .oImgGroup .container .row {
+    margin: 0;
+    width: calc(100% + 50px);
+    text-align-last: left;
+    text-align: justify; }
+    .oImgGroup .container .row > div {
+      padding: 0;
+      padding-right: 50px; }
+      .oImgGroup .container .row > div:nth-of-type(2) img {
+        padding-top: 50px; }
+      .oImgGroup .container .row > div:nth-of-type(3) img {
+        padding-top: 150px;
+        padding-bottom: 40px; }
+
+/*oImgGroup*/
+/*computer*/
+@media all and (min-width: 1170px) {
+  .container {
+    width: 1200px; }
+
+  .oHeader img {
+    height: 665px; }
+
+  .ourteam {
+    padding: 0 10px; }
+    .ourteam .oText p {
+      width: 328px;
+      height: 100%;
+      margin: 0 auto;
+      overflow: hidden;
+      padding: 0;
+      text-align-last: left;
+      text-align: justify; } }
+/*ou
+}
+
+
+/*computer*/
+/*ipad*/
+@media all and (min-width: 416px) and (max-width: 1169px) {
+  .oStroy .container {
+    padding: 0; }
+    .oStroy .container .row {
+      margin: 0; }
+      .oStroy .container .row:nth-of-type(4) {
+        width: 100%;
+        max-height: 345px; }
+        .oStroy .container .row:nth-of-type(4) > div {
+          padding: 0 14px; }
+          .oStroy .container .row:nth-of-type(4) > div img {
+            text-align: -webkit-center;
+            padding: 0;
+            margin: 0; }
+
+  .oImgGroup .container {
+    padding: 0;
+    overflow: hidden; }
+    .oImgGroup .container .row {
+      margin: 0; }
+      .oImgGroup .container .row > div {
+        text-align: -webkit-center; }
+        .oImgGroup .container .row > div img {
+          padding-top: 10px;
+          width: 100%; }
+        .oImgGroup .container .row > div:nth-of-type(2) img {
+          padding-top: 10px;
+          width: 100%; }
+        .oImgGroup .container .row > div:nth-of-type(3) img {
+          padding: 10px 0;
+          width: 100%; }
+
+  .oFooter .container-fluid .row {
+    width: 100%; }
+    .oFooter .container-fluid .row > div:last-of-type {
+      padding-bottom: 30px;
+      text-align-last: left;
+      text-align: justify; }
+      .oFooter .container-fluid .row > div:last-of-type .wechat {
+        margin-top: 40px;
+        padding: 0; } }
+/*ipad*/
+/*phone*/
+@media all and (max-width: 414px) {
+  .oStroy .container .row:nth-of-type(2) > div .oText p {
+    padding: 20px 10px 20px 10px;
+    line-height: 24px;
+    text-align: justify;
+    text-align-last: left;
+    margin: 0; }
+  .oStroy .container .row:nth-of-type(4) {
+    width: 100%;
+    max-height: 345px; }
+    .oStroy .container .row:nth-of-type(4) > div {
+      padding: 0 14px; }
+      .oStroy .container .row:nth-of-type(4) > div img {
+        padding: 0;
+        margin: 0;
+        width: 100%; }
+
+  .oImgGroup .container {
+    padding: 0;
+    overflow: hidden; }
+    .oImgGroup .container .row {
+      margin: 0; }
+      .oImgGroup .container .row > div {
+        text-align: -webkit-center; }
+        .oImgGroup .container .row > div img {
+          padding-top: 10px;
+          width: 100%; }
+        .oImgGroup .container .row > div:nth-of-type(2) img {
+          padding-top: 10px;
+          width: 100%; }
+        .oImgGroup .container .row > div:nth-of-type(3) img {
+          padding: 10px 0;
+          width: 100%; } }
+/*phone*/

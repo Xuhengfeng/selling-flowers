@@ -1,0 +1,128 @@
+@charset 'utf-8';
+body,html{
+    width:100%;
+}
+/*header*/
+.oTopbar{
+    width:100%;
+    background:#fff;
+    opacity:.9;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:999;
+    .navbar{
+        margin:0;
+        padding:0;
+    }
+}
+.oHeader{
+    margin-top:50px;
+}
+/*header*/
+
+/*oFooter*/
+
+.oFooter {
+    width: 100%;
+    min-height: 168px;
+    background: #d75555;
+    .container-fluid{
+        height:100%;
+        padding:0;
+        .row {
+            margin:0;
+            height:100%;
+            div {
+                padding: 0;
+                ul {
+                    margin-top: 40px;
+                    .oFriendlink {
+                        width: 100%;
+                        text-align: center;
+                        margin-bottom: 22px;
+                    }
+                    .oCopyright {
+                        @extend .oFriendlink;
+                    }
+                    .oSiteInfo {
+                        @extend .oFriendlink;
+                    }
+                }
+                .wechat {
+                    margin-top: 38px;
+                    margin-left: 10px;
+                    margin-right: 76px;
+                }
+                &:nth-of-type(2){
+                    height:100%;
+                }
+            }
+        }
+    }
+}
+
+
+/*oFooter*/
+
+/*computer*/
+@media all and (min-width:1170px){
+    .container{
+        width:1200px;
+    }
+    .oHeader {
+        img{
+            height:665px;
+        }
+    }
+}
+/*computer*/
+
+/*ipad*/
+@media all and (min-width:416px)and (max-width:1169px){
+    .oFooter {
+        .container-fluid {
+            .row {
+                width: 100%;
+                >div:last-of-type {
+                    padding-bottom: 30px;
+                    text-align:-webkit-center;
+                    .wechat {
+                        width:100%;
+                        height:100%;
+                        img{
+                            margin-left:50%;
+                            transform:translateX(-50%)
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*ipad*/
+
+
+/*phone*/
+@media all and (max-width:415px) {
+    /*oFooter*/
+    .oFooter {
+        .container-fluid{
+            .row {
+                width: 100%;
+                >div:last-of-type{
+                    padding-bottom:30px;
+                    .wechat{
+                        margin:0;
+                        padding:0;
+                        text-align:center;
+                    }
+                }
+            }
+        }
+    }
+    /*oFooter*/
+}
+
+
+/*phone*/
